@@ -1,0 +1,5 @@
+#!/bin/sh
+#convert hex to decimal on cmdline
+#usage: h2d 0xDEADBEEF
+
+echo $(($1))
